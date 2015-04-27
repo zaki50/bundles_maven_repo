@@ -21,7 +21,10 @@ repositories {
  
  
 dependencies {
+    // 両方使う場合
     compile 'com.neenbedankt.bundles:bundles:1.0.3'
+
+    // 片方しか使わない場合は以下のいずれか
     compile 'com.neenbedankt.bundles:frozen:1.0.3'
     compile 'com.neenbedankt.bundles:argument:1.0.3'
 }
